@@ -2,7 +2,7 @@
 // config.php
 $host = 'localhost';
 $user = 'root';
-$pass = '';
+$pass = 'root';
 $dbname = 'vulnapp';
 $conn = new mysqli($host, $user, $pass, $dbname);
 if ($conn->connect_error) {
