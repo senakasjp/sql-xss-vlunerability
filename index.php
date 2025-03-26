@@ -62,9 +62,6 @@ if (isset($_POST['login'])) {
 </head>
 <body>
     <div class="container mt-5">
-        <div class="text-center mb-4">
-            <a href="#registration" class="btn btn-success">Add New User</a>
-        </div>
         <div class="row">
             <!-- Registration Form -->
             <div class="col-md-6" id="registration">
